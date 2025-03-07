@@ -15,3 +15,4 @@ append_previewers = [
   { name = "*", run = "file" },
 ]
 ```
+Mod from https://github.com/sxyazi/yazi/blob/main/yazi-plugin/preset/plugins/json.lua 
