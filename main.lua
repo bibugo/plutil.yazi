@@ -2,7 +2,7 @@ local M = {}
 
 function M:peek(job)
 	local child = Command("plutil")
-		:args({ "-p", tostring(job.file.url) })
+		:arg({ "-p", tostring(job.file.url) })
 		:stdout(Command.PIPED)
 		:stderr(Command.PIPED)
 		:spawn()
